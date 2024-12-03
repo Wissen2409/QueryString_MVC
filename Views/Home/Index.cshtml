@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    @*QueryString, sayfalar arası veri taşımak için kullanılabilir
+    
+    QueryString key value olacak şekilde belirlenir!!
+    
+    Aşağıdaki örnekte, Home/QueryString action'ına View sayfasından name ve lastname isminde iki değer gönderdik!!
+    
+    
+    QueryString, session gibi gizli olarak gönderilmez!!
+    QueryString her zaman browserin adres çubuğundan göndeerilir,Bu sebeple gizli verilerin querystring ile taşınaması 
+    önerilir!!*@
+    <a href="/Home/QueryString?name=Hasan&lastname=Ayaz">Link'e git</a>
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/QueryString_MVC.props" />
+</Project>
